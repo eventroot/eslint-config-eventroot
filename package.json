@@ -1,0 +1,43 @@
+{
+  "name": "eslint-config-eventroot",
+  "version": "0.0.1",
+  "description": "EventRoot's preferred eslint config",
+  "main": "index.js",
+  "private": false,
+  "scripts": {
+    "lint": "eslint ./",
+    "pretest": "npm run lint",
+    "release": "semantic-release",
+    "release:dry": "npm run release -- --dry-run --no-ci --branches ${BRANCH_NAME:-main}"
+  },
+  "files": [
+    ".eslintrc.json",
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/eventroot/eslint-config-eventroot.git"
+  },
+  "author": {
+    "name": "EventRoot Developers",
+    "email": "help@eventroot.io"
+  },
+  "license": "MIT",
+  "eslintConfig": {
+    "root": true
+  },
+  "bugs": {
+    "url": "https://github.com/eventroot/eslint-config-eventroot/issues"
+  },
+  "homepage": "https://github.com/eventroot/eslint-config-eventroot#readme",
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.2",
+    "@semantic-release/git": "^10.0.1",
+    "eslint": "^8.1.0",
+    "semantic-release": "^20.1.1"
+  },
+  "dependencies": {
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-sensible": "^3.0.2"
+  }
+}
