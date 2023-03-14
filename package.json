@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-eventroot",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "EventRoot's preferred eslint config",
   "main": "index.js",
   "private": false,
