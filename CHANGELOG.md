@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/eventroot/eslint-config-eventroot/compare/1.0.0...1.0.1) (2023-03-14)
+
+
+### Bug Fixes
+
+* **release:** fix release for next branch ([a2d2f99](https://github.com/eventroot/eslint-config-eventroot/commit/a2d2f995d20e9b0a7ad911baae1d31f4cfa2147f))
+
 # 1.0.0 (2023-03-14)
 
 
